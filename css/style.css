@@ -1,6 +1,13 @@
 body {
     font-family: "Playfair Display", sans-serif;
 }
+
+.container {
+    width: 906px;
+    margin: 0 auto;
+    padding: 0, 15;
+}
+
  /* HEADER */
 .header {
 }
