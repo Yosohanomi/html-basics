@@ -1,7 +1,37 @@
 body {
     font-family: "Playfair Display", sans-serif;
 }
+ /* HEADER */
+.header {
+}
+.header__nav {
+}
+.header__nav__list {
+}
+.header__nav__item {
+}
+.header__nav__link {
+}
 
+/* LIFESTYLE */
+.lifestyle__section {
+}
+.lifestyle__list {
+}
+.lifestyle__list__item {
+}
+.lifestyle__list__img {
+}
 .lifestyle__list__subtitle {
     font-family: "Ubuntu", sans-serif;
+}
+.lifestyle__list__title {
+}
+.lifestyle__list__text {
+}
+.lifestyle__list-item {
+}
+.lifestyle__list-img {
+}
+.lifestyle__button {
 }
