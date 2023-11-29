@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>HTMLbasics</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">LIFESTYLE</a></li>
-                <li><a href="#">PHOTODIARY</a></li>
-                <li><a href="#">MUSIC</a></li>
-                <li><a href="#">TRAVEL</a></li>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#">LIFESTYLE</a></li>
+                <li class="header__nav-item"><a href="#">PHOTODIARY</a></li>
+                <li class="header__nav-item"><a href="#">MUSIC</a></li>
+                <li class="header__nav-item"><a href="#">TRAVEL</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <ul>
-                <li>
-                    <img src="images/1 1.jpg" alt="dancing girl">
-                    <p>LIFESTYLE</p>
-                    <h2>More than just a music festival</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+    <main class="lifestyle">
+        <section class="lifestyle__section">
+            <ul class="lifestyle__list">
+                <li class="lifestyle__list-item">
+                    <img src="public/images/1.jpg" alt="dancing girl" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">More than just a music festival</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li class="lifestyle__list-item">
+                    <img src="public/images/2.jpg" alt="coffee" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">Life tastes better with coffee</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li class="lifestyle__list-item">
+                    <img src="public/images/3.jpg" alt="women" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">American dream</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li class="lifestyle__list-item">
+                    <img src="public/images/4.jpg" alt="man" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">A day exploring the Alps</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li class="lifestyle__list-item">
+                    <img src="public/images/unnamed.jpg" alt="woman" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">Top 10 song for running</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li class="lifestyle__list-item">
+                    <img src="public/images/6.jpg" alt="road" class="lifestyle__list-img">
+                    <p class="lifestyle__list__subtitle">LIFESTYLE</p>
+                    <h2 class="lifestyle__list__title">Cold winter days</h2>
+                    <p class="lifestyle__list-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
             </ul>
+            <button class="lifestyle__button">Load more</button>
         </section>
     </main>
 </body>
