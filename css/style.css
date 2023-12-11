@@ -6,10 +6,13 @@ body {
     width: 906px;
     margin: 0 auto;
     padding: 0, 15;
+    outline: 1px solid red;
 }
 
  /* HEADER */
 .header {
+    margin-top: 71px;
+    margin-bottom: 92px;
 }
 .header__nav {
     color: #7D7D7D;
@@ -19,6 +22,12 @@ body {
 .header__nav__link:hover,
 .header__nav__link:focus {
     color: #03A9F4;
+}
+
+.header__nav__list{
+    display: flex;
+    gap: 99px;
+    justify-content: center;
 }
 
 .header__nav__list {
