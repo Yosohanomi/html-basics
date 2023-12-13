@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 906px;
+    width: 936px;
     margin: 0 auto;
     padding: 0, 15;
     outline: 1px solid red;
@@ -44,17 +44,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 130px 65px
+    justify-content: center;
 }
 .lifestyle__list__item {
     flex-basis: calc((100% - 65px) / 2);
 }
 .lifestyle__list__img {
+    margin-bottom: 32px;
 }
 .lifestyle__list__subtitle {
     font-family: "Ubuntu", sans-serif;
     color: #B4AD9E;
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 40px;
 }
 .lifestyle__list__title {
     color: #626262;
@@ -71,9 +74,15 @@ body {
 .lifestyle__list__img {
 }
 .lifestyle__button {
+    display: flex;
+    /* margin: 0 auto; */
     width: 165px;
     height: 60px;
-    color: #626262;
     font-size: 14px;
     font-weight: 400;
+    align-items: center;
+    border: 1px solid  #626262;
+    margin-bottom: 66px;
+    margin-top: 90px;
+    justify-content: center;
 }
