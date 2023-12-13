@@ -41,8 +41,12 @@ body {
 .lifestyle__section {
 }
 .lifestyle__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px 65px
 }
 .lifestyle__list__item {
+    flex-basis: calc((100% - 65px) / 2);
 }
 .lifestyle__list__img {
 }
