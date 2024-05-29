@@ -6,7 +6,6 @@ body {
     width: 936px;
     margin: 0 auto;
     padding: 0, 15;
-    outline: 1px solid red;
 }
 
  /* HEADER */
@@ -43,7 +42,7 @@ body {
 .lifestyle__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 130px 65px
+    gap: 130px 65px;
     justify-content: center;
 }
 .lifestyle__list__item {
