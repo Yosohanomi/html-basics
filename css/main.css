@@ -1,0 +1,124 @@
+.container {
+  width: 936px;
+  margin: 0 auto;
+  padding: 0, 15;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.header {
+  margin-top: 71px;
+  margin-bottom: 92px;
+}
+
+.header__nav {
+  color: #7D7D7D;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__nav__link:hover,
+.header__nav__link:focus {
+  color: #03A9F4;
+}
+
+.header__nav__list {
+  display: flex;
+  gap: 99px;
+  justify-content: center;
+}
+
+.lifestyle__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px 65px;
+  justify-content: center;
+}
+
+.lifestyle__list__item {
+  flex-basis: calc((100% - 65px) / 2);
+}
+
+.lifestyle__list__img {
+  margin-bottom: 32px;
+}
+
+.lifestyle__list__subtitle {
+  font-family: "Ubuntu", sans-serif;
+  color: #B4AD9E;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.lifestyle__list__title {
+  color: #626262;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.lifestyle__list__text {
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.lifestyle__button {
+  display: flex;
+  /* margin: 0 auto; */
+  width: 165px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+  border: 1px solid #626262;
+  margin-bottom: 66px;
+  margin-top: 90px;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

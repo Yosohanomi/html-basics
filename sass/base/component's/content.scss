@@ -1,34 +1,3 @@
-body {
-    font-family: "Playfair Display", sans-serif;
-}
-
-
-
- /* HEADER */
-.header {
-    margin-top: 71px;
-    margin-bottom: 92px;
-}
-.header__nav {
-    color: #7D7D7D;
-    font-size: 14px;
-    font-weight: 400;
-}
-.header__nav__link:hover,
-.header__nav__link:focus {
-    color: #03A9F4;
-}
-
-.header__nav__list{
-    display: flex;
-    gap: 99px;
-    justify-content: center;
-}
-
-
-
-/* LIFESTYLE */
-
 .lifestyle__list {
     display: flex;
     flex-wrap: wrap;
