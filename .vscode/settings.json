@@ -14,7 +14,7 @@
     "liveSassCompile.settings.excludeList": [
     ],
     "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port": 1235,
+    "liveServer.settings.port": 1236,
     "liveSassCompile.settings.autoprefix": null
     }
     
